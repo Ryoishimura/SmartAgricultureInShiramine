@@ -24,7 +24,7 @@ void handleRoot() {
   String html = "<!DOCTYPE html><html><head><title>ENV IV Sensor</title>"; 
   html += "<meta http-equiv='refresh' content='5'>"; // 5秒ごとに自動更新
   html += "<style>body{font-family:sans-serif;text-align:center;}h1{color:#007BFF;}</style>";
-  html += "</head><body>";
+  html += "</head><body style=\"font-size: 200%;\">";
   html += "<h1>ENV IV Sensor Data</h1>";
   html += "<p>Temperature: " + String(temperature, 2) + " C</p>";
   html += "<p>Humidity: " + String(humidity, 2) + " %</p>";
